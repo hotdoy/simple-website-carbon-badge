@@ -23,6 +23,7 @@ const newRequest = function (render = true) {
 
         // Handle error responses
         .catch(function (e) {
+            cb.innerHTML = '[unable to evaluate carbon footprint]'
             console.log(e);
             localStorage.removeItem('carbonbadge_'+cb_url)
         })
