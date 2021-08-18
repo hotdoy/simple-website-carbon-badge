@@ -5,8 +5,6 @@ You can see this version being used [here](https://getwheat.ca) (check the foote
 
 ## Installation
 
-Adding the badge to your site is as simple as inserting the following lines into your markup where you would like the badge to appear:
-
 ```html
 <script src="carbonbadge.js" defer></script>
 <div id="carbonbadge"></div>
